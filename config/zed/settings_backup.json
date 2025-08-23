@@ -7,13 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Charmed Icons",
-  "assistant": {
+  "icon_theme": "Warm Charmed Icons",
+  "agent": {
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    },
     "always_allow_tool_actions": true,
     "dock": "left",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-3-7-sonnet"
+      "provider": "google",
+      "model": "gemini-2.5-flash"
     },
     "version": "2"
   },
@@ -23,9 +27,9 @@
   "vim_mode": true,
   "relative_line_numbers": true,
   "ui_font_size": 18,
-  "buffer_font_size": 18,
-  "buffer_font_family": "MonoLisa",
-  "ui_font_family": "MonoLisa",
+  "buffer_font_size": 20,
+  "buffer_font_family": "Cascadia Code",
+  "ui_font_family": "JetBrains Mono",
   "soft_wrap": "editor_width",
   "telemetry": {
     "diagnostics": false,
@@ -39,7 +43,7 @@
   },
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Nordic"
+    "light": "Tokyo Night",
+    "dark": "Terafox"
   }
 }

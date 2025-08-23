@@ -22,6 +22,7 @@
   {
     "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting",
     "bindings": {
+      "ctrl-b": "workspace::ToggleLeftDock",
       "space e": "workspace::ToggleRightDock",
       "ctrl-w": "pane::CloseActiveItem",
       "space space": "file_finder::Toggle",

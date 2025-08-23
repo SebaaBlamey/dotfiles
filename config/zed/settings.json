@@ -7,19 +7,18 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "icon_theme": "Warm Charmed Icons",
   "agent": {
     "inline_assistant_model": {
       "provider": "copilot_chat",
-      "model": "claude-3.7-sonnet"
+      "model": "gpt-4.1"
     },
     "always_allow_tool_actions": true,
     "dock": "left",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3.7-sonnet"
-    },
-    "version": "2"
+      "model": "claude-sonnet-4"
+    }
   },
   "features": {
     "edit_prediction_provider": "copilot"
@@ -28,7 +27,7 @@
   "relative_line_numbers": true,
   "ui_font_size": 18,
   "buffer_font_size": 20,
-  "buffer_font_family": "Maple Mono NF",
+  "buffer_font_family": "Maple Mono",
   "ui_font_family": "JetBrains Mono",
   "soft_wrap": "editor_width",
   "telemetry": {
@@ -43,7 +42,8 @@
   },
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Fleet Dark"
+    "light": "Tokyo Night",
+    "dark": "One Dark Pro"
   }
+  // "disable_ai": true
 }

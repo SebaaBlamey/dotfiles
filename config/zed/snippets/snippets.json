@@ -1,0 +1,22 @@
+{
+  "Debug Log": {
+    "prefix": "cld",
+    "body": ["CustomLogger.log(LogLevel.DEBUG, ${1:palabra})"],
+    "description": "Log a debug message using CustomLogger"
+  },
+  "Warn Log": {
+    "prefix": "clw",
+    "body": ["CustomLogger.log(LogLevel.WARN, ${1:palabra})"],
+    "description": "Log a warning message using CustomLogger"
+  },
+  "Error Log": {
+    "prefix": "cle",
+    "body": ["CustomLogger.log(LogLevel.ERROR, ${1:palabra})"],
+    "description": "Log an error message using CustomLogger"
+  },
+  "Success Log": {
+    "prefix": "cls",
+    "body": ["CustomLogger.log(LogLevel.SUCCESS, ${1:palabra})"],
+    "description": "Log a success message using CustomLogger"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "Debug Log": {
+    "prefix": "cld",
+    "body": ["CustomLogger.log(LogLeve.DEBUG, ${1:palabra})"],
+    "description": "Log a debug message using CustomLogger"
+  }
+}
