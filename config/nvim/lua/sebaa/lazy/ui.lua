@@ -36,28 +36,217 @@ return {
 			"nvim-tree/nvim-web-devicons", -- optional, but recommended
 		},
 		lazy = false, -- neo-tree will lazily load itself
-	},
-	{
-		"nvim-lualine/lualine.nvim",
-		dependencies = { "nvim-tree/nvim-web-devicons" },
 		config = function()
-			require("lualine").setup({
-				options = {
-					section_separators = "",
-					component_separators = "",
-					globalstatus = true, -- if using laststatus=3
+			require("transparent").clear_prefix("NeoTree")
+			require("neo-tree").setup({
+				sources = {
+					"filesystem",
+					"git_status",
+				},
+				source_selector = {
+					winbar = true,
+					statusline = true,
+				},
+				filesystem = {
+					commands = {
+						avante_add_files = function(state)
+							local node = state.tree:get_node()
+							local filepath = node:get_id()
+							local relative_path = require("avante.utils").relative_path(filepath)
+
+							local sidebar = require("avante").get()
+
+							local open = sidebar:is_open()
+							-- ensure avante sidebar is open
+							if not open then
+								require("avante.api").ask()
+								sidebar = require("avante").get()
+							end
+
+							sidebar.file_selector:add_selected_file(relative_path)
+
+							-- remove neo tree buffer
+							if not open then
+								sidebar.file_selector:remove_selected_file("neo-tree filesystem [1]")
+							end
+						end,
+					},
+					window = {
+						mappings = {
+							["oa"] = "avante_add_files",
+						},
+					},
 				},
 			})
 		end,
 	},
 	{
-		"nvimdev/dashboard-nvim",
-		event = "VimEnter",
+		"nvim-lualine/lualine.nvim",
+		dependencies = { "nvim-mini/mini.icons" },
 		config = function()
-			require("dashboard").setup({
-				-- config
+			require("lualine").setup({
+				options = {
+					component_separators = "",
+					section_separators = { left = "", right = "" },
+					globalstatus = true, -- if using laststatus=3
+				},
+				sections = {
+					lualine_a = {
+						{
+							"mode",
+							separator = { left = "" },
+							right_padding = 2,
+							fmt = function(str)
+								local mode_icons = {
+									["NORMAL"] = "󰊠",
+									["INSERT"] = "󰏫",
+									["VISUAL"] = "󰒉",
+									["V-LINE"] = "󰒉",
+									["V-BLOCK"] = "󰒉",
+									["REPLACE"] = "󰛔",
+									["COMMAND"] = "󰘳",
+									["TERMINAL"] = "",
+									["SELECT"] = "󰒉",
+									["S-LINE"] = "󰒉",
+									["S-BLOCK"] = "󰒉",
+								}
+								return mode_icons[str] or str
+							end,
+						},
+					},
+					lualine_b = { "filename", "branch" },
+					lualine_c = { "%=" },
+					lualine_x = { "diagnostics" },
+					lualine_y = {
+						"filetype",
+						function()
+							local current_line = vim.fn.line(".")
+							local total_lines = vim.fn.line("$")
+							local progress = current_line / total_lines
+							local vertical_chars = {
+								"󰂎",
+								"󰁺",
+								"󰁻",
+								"󰁼",
+								"󰁽",
+								"󰁾",
+								"󰁿",
+								"󰂀",
+								"󰂁",
+								"󰂂",
+								"󰁹",
+							}
+							local index = math.min(math.floor(progress * 11) + 1, 11)
+							return vertical_chars[index]
+						end,
+					},
+					lualine_z = {
+						{
+							"location",
+							separator = { right = "" },
+							left_padding = 2,
+						},
+					},
+				},
 			})
 		end,
-		dependencies = { { "nvim-tree/nvim-web-devicons" } },
+	},
+	{
+		"nvim-mini/mini.indentscope",
+		version = "*",
+		config = function()
+			require("mini.indentscope").setup({
+				draw = {
+					delay = 80,
+				},
+				symbol = "┃",
+			})
+		end,
+	},
+	{
+		"sphamba/smear-cursor.nvim",
+		opts = {},
+	},
+	{
+		"xiyaowong/transparent.nvim",
+	},
+	-- lazy.nvim setup
+	{
+		"folke/snacks.nvim",
+		---@type snacks.Config
+		opts = {
+			dashboard = {
+				preset = {
+					header = [[
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠉⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢁⠀⢀⠠⣀⠰⢠⠐⡈⠉⠉⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⡌⠂⣅⣤⣬⢦⣬⡐⢡⠂⠀⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠄⡘⢠⡟⣽⢾⣹⡟⣼⡽⣦⡈⢀⠀⠀⢸⣿⠟⠋⠉⠉⠛⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠠⠘⠄⣯⡽⣞⣯⢷⣹⢾⣽⢣⡗⡀⠠⠀⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠠⢉⢼⣳⣻⡽⣎⡷⣫⠷⣞⣭⡓⠤⠐⠀⠀⠀⡀⡀⠠⢤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠰⢁⢸⡷⣳⢻⣜⢷⣫⢟⣮⡓⣌⠳⢀⠢⣉⢦⡱⣐⠌⡄⣈⠙⠿⣶⣤⣀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠈⡄⡿⣭⡳⣏⡾⣣⡟⢖⠱⠈⣤⢞⣣⢏⡖⢧⣙⠞⡴⢢⡑⠤⡈⠻⢿⣷⣤⡀⠀⠀⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠁⢡⠐⠹⣧⢻⡜⡷⢍⡱⠊⣤⠻⣜⣚⢦⣛⡼⢣⡝⣎⢳⢣⡝⣲⣁⠎⡄⠻⣿⣿⣦⡀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⡄⠈⢀⢩⠣⢜⡰⢊⠄⣼⡒⣟⣬⢳⡭⢶⣩⠗⣮⣙⢎⡳⡜⣥⢚⡖⣌⠆⡈⢿⣿⣿⡄⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⣈⠀⠀⠱⢊⠴⠉⣜⡲⣝⠮⣖⠯⣜⡳⢎⡽⡲⣍⡞⣱⡙⢦⢫⡔⣣⢎⡱⢀⠹⠋⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢀⠎⢀⡄⠊⠀⠉⠖⢸⡜⡵⣎⡻⢼⣙⢮⡝⠉⠀⠀⠀⠈⠁⠙⣎⠧⡜⣥⢚⡴⠁⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⡜⠀⠘⢡⣂⠑⠀⠄⣳⡚⡵⣎⠽⣣⢏⡞⠀⣾⠃⠀⠀⠀⠀⠈⠄⣛⠼⡰⣋⠄⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠂⡇⢌⡐⠴⣩⢏⡳⢄⢧⡹⠵⣎⠯⡵⣚⠀⢀⠀⡄⠤⢈⠀⠄⠀⢸⢈⡞⢥⢣⡀⠀⠀⠀⠀⢴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⢧⢃⠤⡐⡏⠶⣩⠞⣭⠲⣭⢓⡮⣝⢲⢭⠀⢢⠑⡨⢐⠡⠒⡀⠀⣸⠰⣘⢣⠳⡜⡢⢄⢦⡑⡘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡌⢆⡣⢔⣣⢣⡑⢃⣋⠴⣌⠲⣋⠶⡩⢂⢯⣡⢀⠊⠔⣁⠊⠅⢄⣴⠣⠜⡤⢃⢻⡘⡵⢋⢦⠳⡄⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠠⡓⢎⡲⢥⢋⡳⣌⠳⣌⠳⣔⢲⠲⣍⠶⣡⢇⡏⣒⢒⡓⢚⢋⠦⡱⣉⠖⡩⢆⡝⡲⣍⢎⢧⣙⡘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⢉⢮⠱⣎⢣⡕⢎⡳⣌⠳⣌⢧⢫⠜⣎⠵⣊⢖⡡⢎⠴⣉⢎⠲⡱⣈⢎⡱⢪⡜⡱⣜⠪⣖⡡⠆⣿⣿⣿⣿⠿⠛⠉⠉⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠈⣑⠮⣱⢊⢧⢓⡬⢳⠜⡦⢋⡞⢬⡚⣥⢚⡴⣉⠖⡡⢎⠲⡑⡌⢦⢱⢣⡚⠵⣌⠳⢦⡙⠆⣹⣿⣿⣿⡀⠲⡏⠀⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢁⢲⠩⡖⣥⢋⡎⡞⣌⢣⠛⡬⢳⡘⣣⠕⣎⠵⡚⣬⠚⣕⢪⠵⣱⢊⢧⢋⡖⢭⠳⣌⡛⡴⣉⠇⢸⣿⣿⣿⣷⡄⠀⣸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢁⡎⡥⢛⡴⢊⡵⢊⡵⢊⠶⣩⢔⡣⣜⡱⣚⠼⣸⠱⣆⠻⣌⠳⢎⡱⢎⢮⡱⢎⢣⢳⡘⡴⢣⠍⠎⠘⣿⣿⣿⡿⠁⣰⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⢠⡜⢣⡜⡜⡥⢎⠳⣌⠳⣌⢏⡚⡥⢎⡵⢢⡓⣥⢋⡖⢭⢲⡙⣬⡙⡎⡵⢊⠖⡱⢎⢣⢣⢎⡱⢣⡹⠈⣌⠪⡙⠛⠁⣴⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⡿⠛⠉⡡⡌⠧⡜⢣⡜⢲⢱⢊⡳⢌⡳⢌⠶⣉⠶⣉⠖⢣⡹⢤⣋⡜⢎⡱⣚⢤⠓⡩⣐⢎⠮⡱⢎⢣⢣⢎⡱⢣⠅⡃⢌⢳⠩⡙⣰⣿⣿⣿⣿⣿⣿
+]],
+					keys = {},
+					sections = {
+						{ section = "header" },
+						{
+							pane = 2,
+							section = "terminal",
+							cmd = "colorscript -e square",
+							height = 5,
+							padding = 1,
+						},
+						{ section = "keys", gap = 1, padding = 1 },
+						{
+							pane = 2,
+							icon = " ",
+							title = "Recent Files",
+							section = "recent_files",
+							indent = 2,
+							padding = 1,
+						},
+						{ pane = 2, icon = " ", title = "Projects", section = "projects", indent = 2, padding = 1 },
+						{
+							pane = 2,
+							icon = " ",
+							title = "Git Status",
+							section = "terminal",
+							enabled = vim.fn.isdirectory(".git") == 1,
+							cmd = "hub status --short --branch --renames",
+							height = 5,
+							padding = 1,
+							ttl = 5 * 60,
+							indent = 3,
+						},
+						{ section = "startup" },
+					},
+				},
+			},
+		},
+	},
+	{
+		"nvim-treesitter/nvim-treesitter-context",
+	},
+	{
+		"norcalli/nvim-colorizer.lua",
+		-- config = function()
+		-- 	require("nvim-highlight-colors").setup({})
+		-- end,
 	},
 }

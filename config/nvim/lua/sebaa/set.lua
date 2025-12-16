@@ -2,7 +2,12 @@ local global = vim.g
 local o = vim.opt
 
 global.loaded_netrwPlugin = 0
-o.shell = "/bin/fish"
+local shell = os.getenv("SHELL") or "/bin/bash"
+if vim.fn.executable(shell) == 1 then
+	o.shell = shell
+else
+	o.shell = "/bin/sh"
+end
 o.number = true
 o.relativenumber = true
 o.clipboard = "unnamedplus"
@@ -27,5 +32,7 @@ o.splitbelow = true
 o.termguicolors = true
 o.scrolloff = 8
 o.laststatus = 3
+
+o.cmdheight = 0
 
 -- vim.cmd.colorscheme("kanagawa")

@@ -23,12 +23,37 @@ return {
 	{
 		"ibhagwan/fzf-lua",
 		-- optional for icon support
-		dependencies = { "nvim-tree/nvim-web-devicons" },
+		dependencies = { "nvim-mini/mini.icons" },
 		-- or if using mini.icons/mini.nvim
 		-- dependencies = { "nvim-mini/mini.icons" },
 		opts = {},
 		config = function()
-			require("fzf-lua").setup()
+			require("fzf-lua").setup({
+				vim.keymap.set("n", "<leader>uC", function()
+					local fzf = require("fzf-lua")
+					fzf.colorschemes({
+						actions = {
+							["default"] = function(selected)
+								local colorscheme = selected[1]
+								vim.cmd.colorscheme(colorscheme)
+
+								-- Actualiza el archivo de configuración con el nuevo colorscheme
+								local config_file = vim.fn.stdpath("config") .. "./colorschemes.lua"
+								local content = vim.fn.readfile(config_file)
+
+								for i, line in ipairs(content) do
+									if line:match("colorscheme%s*=") then
+										content[i] = string.format('  colorscheme = "%s",', colorscheme)
+										break
+									end
+								end
+
+								vim.fn.writefile(content, config_file)
+							end,
+						},
+					})
+				end, { desc = "Colorscheme with preview and save" }),
+			})
 			require("fzf-lua").register_ui_select()
 		end,
 	},
@@ -61,6 +86,7 @@ return {
 		"folke/which-key.nvim",
 		event = "VeryLazy",
 		opts = {
+			preset = "modern",
 			-- Register your custom key descriptions here
 			registers = {
 				["<leader>"] = {
@@ -99,5 +125,50 @@ return {
 				desc = "Buffer Local Keymaps (which-key)",
 			},
 		},
+	},
+	{
+		"nvimdev/lspsaga.nvim",
+		event = "LspAttach",
+		config = function()
+			require("lspsaga").setup({
+				symbol_in_winbar = {
+					enable = false,
+				},
+				ui = {
+					code_action = "",
+				},
+			})
+		end,
+		dependencies = {
+			"nvim-treesitter/nvim-treesitter", -- optional
+			"nvim-mini/mini.icons", -- optional
+		},
+	},
+	-- nvim v0.8.0
+	{
+		"kdheepak/lazygit.nvim",
+		lazy = true,
+		cmd = {
+			"LazyGit",
+			"LazyGitConfig",
+			"LazyGitCurrentFile",
+			"LazyGitFilter",
+			"LazyGitFilterCurrentFile",
+		},
+		-- optional for floating window border decoration
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+		},
+		-- setting the keybinding for LazyGit with 'keys' is recommended in
+		-- order to load the plugin when the command is run for the first time
+		keys = {
+			{ "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
+		},
+	},
+	{
+		"lewis6991/gitsigns.nvim",
+		config = function()
+			require("gitsigns").setup({})
+		end,
 	},
 }
