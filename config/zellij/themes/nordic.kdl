@@ -1,0 +1,141 @@
+themes {
+    nordic {
+        // Text components - for status bar text, key hints, etc.
+        text_unselected {
+            base 216 222 233  // white1 - primary text
+            background 46 52 64  // gray1 - main background
+            emphasis_0 94 129 172  // blue0 - primary accent
+            emphasis_1 208 135 112  // orange
+            emphasis_2 163 190 140  // green
+            emphasis_3 235 203 139  // yellow
+        }
+        text_selected {
+            base 216 222 233  // white1 - primary text
+            background 94 129 172  // blue0 - highlighted background
+            emphasis_0 255 255 255  // bright white for contrast
+            emphasis_1 235 203 139  // yellow
+            emphasis_2 143 188 187  // cyan
+            emphasis_3 180 142 173  // magenta
+        }
+
+        // Ribbon components - for tabs and mode indicators
+        ribbon_unselected {
+            base 129 161 193  // blue1 - subdued accent
+            background 59 66 82  // gray2 - surface
+            emphasis_0 76 86 106  // gray4 - dim text
+            emphasis_1 208 135 112  // orange
+            emphasis_2 163 190 140  // green
+            emphasis_3 235 203 139  // yellow
+        }
+        ribbon_selected {
+            base 216 222 233  // white1 - bright text
+            background 94 129 172  // blue0 - active tab
+            emphasis_0 255 255 255  // white
+            emphasis_1 235 203 139  // yellow
+            emphasis_2 143 188 187  // cyan
+            emphasis_3 180 142 173  // magenta
+        }
+
+        // Table components
+        table_title {
+            base 216 222 233  // white1 - title text
+            background 67 76 94  // gray3 - title background
+            emphasis_0 94 129 172  // blue0
+            emphasis_1 208 135 112  // orange
+            emphasis_2 163 190 140  // green
+            emphasis_3 235 203 139  // yellow
+        }
+        table_cell_unselected {
+            base 216 222 233  // white1 - cell text
+            background 46 52 64  // gray1 - cell background
+            emphasis_0 129 161 193  // blue1
+            emphasis_1 208 135 112  // orange
+            emphasis_2 163 190 140  // green
+            emphasis_3 235 203 139  // yellow
+        }
+        table_cell_selected {
+            base 216 222 233  // white1 - selected cell text
+            background 59 66 82  // gray2 - selected background
+            emphasis_0 94 129 172  // blue0 - primary accent
+            emphasis_1 235 203 139  // yellow
+            emphasis_2 143 188 187  // cyan
+            emphasis_3 180 142 173  // magenta
+        }
+
+        // List components
+        list_unselected {
+            base 216 222 233  // white1 - list text
+            background 46 52 64  // gray1 - list background
+            emphasis_0 129 161 193  // blue1
+            emphasis_1 208 135 112  // orange
+            emphasis_2 163 190 140  // green
+            emphasis_3 235 203 139  // yellow
+        }
+        list_selected {
+            base 216 222 233  // white1 - selected text
+            background 94 129 172  // blue0 - selection
+            emphasis_0 255 255 255  // white
+            emphasis_1 235 203 139  // yellow
+            emphasis_2 143 188 187  // cyan
+            emphasis_3 180 142 173  // magenta
+        }
+
+        // Frame components - for pane borders
+        frame_unselected {
+            base 76 86 106  // gray4 - unfocused border
+            background 46 52 64  // gray1 - background
+            emphasis_0 129 161 193  // blue1
+            emphasis_1 208 135 112  // orange
+            emphasis_2 163 190 140  // green
+            emphasis_3 235 203 139  // yellow
+        }
+        frame_selected {
+            base 94 129 172  // blue0 - focused border
+            background 46 52 64  // gray1 - background
+            emphasis_0 216 222 233  // white1 - bright accents
+            emphasis_1 208 135 112  // orange
+            emphasis_2 163 190 140  // green
+            emphasis_3 235 203 139  // yellow
+        }
+        frame_highlight {
+            base 208 135 112  // orange - mode highlight
+            background 46 52 64  // gray1 - background
+            emphasis_0 235 203 139  // yellow
+            emphasis_1 216 222 233  // white1
+            emphasis_2 163 190 140  // green
+            emphasis_3 143 188 187  // cyan
+        }
+
+        // Exit codes - for command panes
+        exit_code_success {
+            base 163 190 140  // green - success color
+            background 46 52 64  // gray1 - background
+            emphasis_0 163 190 140  // green
+            emphasis_1 163 190 140  // green
+            emphasis_2 163 190 140  // green
+            emphasis_3 163 190 140  // green
+        }
+        exit_code_error {
+            base 191 97 106  // red - error color
+            background 46 52 64  // gray1 - background
+            emphasis_0 191 97 106  // red
+            emphasis_1 191 97 106  // red
+            emphasis_2 191 97 106  // red
+            emphasis_3 191 97 106  // red
+        }
+
+        // Multiplayer user colors - using Nordic palette
+        multiplayer_user_colors {
+            player_1 94 129 172   // blue0
+            player_2 208 135 112  // orange
+            player_3 163 190 140  // green
+            player_4 235 203 139  // yellow
+            player_5 143 188 187  // cyan
+            player_6 180 142 173  // magenta
+            player_7 191 97 106   // red
+            player_8 129 161 193  // blue1
+            player_9 216 222 233  // white1
+            player_10 136 192 208 // blue2
+        }
+    }
+}
