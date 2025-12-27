@@ -1,0 +1,652 @@
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/ftplugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/ftplugin.vim
+sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/indent.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/indent.vim
+sourcing "init.lua"
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/filetype.lua:0"
+not found in runtime path: "ftdetect/*.{vim,lua}"
+finished sourcing nvim_exec2() called at /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/filetype.lua:0
+continuing in /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/filetype.lua
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/filetype.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/catppuccin/colors/catppuccin-mocha.vim"
+finished sourcing /Users/seba/.local/share/nvim/lazy/catppuccin/colors/catppuccin-mocha.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/gitsigns.nvim/plugin/gitsigns.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/gitsigns.nvim/plugin/gitsigns.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/blink.cmp/plugin/blink-cmp.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/blink.cmp/plugin/blink-cmp.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/snacks.nvim/plugin/snacks.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/snacks.nvim/plugin/snacks.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.vim"
+finished sourcing /Users/seba/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+not found in runtime path: "package.jsonc"
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+--- Autocommands ---
+lualine  BufEnter
+    *         lua require'lualine.components.branch.git_branch'.find_git_dir()
+	Last set from ~/.local/share/nvim/lazy/lualine.nvim/lua/lualine/utils/utils.lua line 98
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/fzf-lua/plugin/fzf-lua.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/fzf-lua/plugin/fzf-lua.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/fzf-lua/autoload/fzf_lua.vim"
+finished sourcing /Users/seba/.local/share/nvim/lazy/fzf-lua/autoload/fzf_lua.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/conform.nvim/plugin/conform.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/conform.nvim/plugin/conform.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/nvim-lspconfig/plugin/lspconfig.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/nvim-lspconfig/plugin/lspconfig.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim"
+finished sourcing /Users/seba/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/nvim-web-devicons/plugin/nvim-web-devicons.vim"
+finished sourcing /Users/seba/.local/share/nvim/lazy/nvim-web-devicons/plugin/nvim-web-devicons.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/seba/.local/share/nvim/lazy/neo-tree.nvim/plugin/neo-tree.lua"
+finished sourcing /Users/seba/.local/share/nvim/lazy/neo-tree.nvim/plugin/neo-tree.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/editorconfig.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/editorconfig.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/gzip.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/man.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/man.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+line 3: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/matchit.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/matchit.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/matchparen.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/netrwPlugin.vim"
+not found in 'packpath': "pack/*/start/netrw"
+line 7: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/netrwPlugin.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/netrwPlugin.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/osc52.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/osc52.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/rplugin.vim"
+  1: ~/.config/nvim/vim/_defaults.lua
+  2: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/ftplugin.vim
+  3: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/indent.vim
+  4: ~/.config/nvim/init.lua
+  5: ~/.config/nvim/lua/sebaa/lazy_init.lua
+  6: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/config.lua
+  7: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/commands.lua
+  8: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua
+  9: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua
+ 10: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/event.lua
+ 11: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua
+ 12: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua
+ 13: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/filetype.lua
+ 14: ~/.local/share/nvim/lazy/catppuccin/lua/catppuccin/init.lua
+ 15: ~/.local/share/nvim/lazy/catppuccin/colors/catppuccin-mocha.vim
+ 16: ~/.cache/nvim/catppuccin/mocha
+ 17: ~/.local/share/nvim/lazy/gitsigns.nvim/plugin/gitsigns.lua
+ 18: ~/.local/share/nvim/lazy/gitsigns.nvim/lua/gitsigns.lua
+ 19: ~/.local/share/nvim/lazy/gitsigns.nvim/lua/gitsigns/highlight.lua
+ 20: ~/.local/share/nvim/lazy/blink.cmp/plugin/blink-cmp.lua
+ 21: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/lua/vim/lsp.lua
+ 22: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/utils.lua
+ 23: ~/.config/nvim/lua/sebaa/lazy/completion.lua
+ 24: ~/.local/share/nvim/lazy/snacks.nvim/plugin/snacks.lua
+ 25: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/init.lua
+ 26: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua
+ 27: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/config.lua
+ 28: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.vim
+ 29: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/loaders/fs_watchers.lua
+ 30: ~/.local/share/nvim/lazy/lualine.nvim/lua/lualine/highlight.lua
+ 31: ~/.local/share/nvim/lazy/lualine.nvim/lua/lualine.lua
+ 32: ~/.local/share/nvim/lazy/lualine.nvim/lua/lualine/utils/utils.lua
+ 33: ~/.local/share/nvim/lazy/lualine.nvim/lua/lualine/utils/nvim_opts.lua
+ 34: ~/.local/share/nvim/lazy/fzf-lua/plugin/fzf-lua.lua
+ 35: ~/.local/share/nvim/lazy/fzf-lua/autoload/fzf_lua.vim
+ 36: ~/.local/share/nvim/lazy/fzf-lua/lua/fzf-lua/init.lua
+ 37: ~/.config/nvim/lua/sebaa/lazy/utils.lua
+ 38: ~/.local/share/nvim/lazy/conform.nvim/plugin/conform.lua
+ 39: ~/.local/share/nvim/lazy/conform.nvim/lua/conform/init.lua
+ 40: ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua
+ 41: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/lua/vim/treesitter/query.lua
+ 42: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/utils.lua
+ 43: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/install.lua
+ 44: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua
+ 45: ~/.local/share/nvim/lazy/smear-cursor.nvim/lua/smear_cursor/color.lua
+ 46: ~/.local/share/nvim/lazy/smear-cursor.nvim/lua/smear_cursor/events.lua
+ 47: ~/.local/share/nvim/lazy/smear-cursor.nvim/lua/smear_cursor/init.lua
+ 48: ~/.local/share/nvim/lazy/mini.indentscope/lua/mini/indentscope.lua
+ 49: ~/.local/share/nvim/lazy/mason.nvim/lua/mason/api/command.lua
+ 50: ~/.local/share/nvim/lazy/mason.nvim/lua/mason/init.lua
+ 51: ~/.local/share/nvim/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/api/command.lua
+ 52: ~/.local/share/nvim/lazy/nvim-lspconfig/plugin/lspconfig.lua
+ 53: ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim
+ 54: ~/.local/share/nvim/lazy/nvim-web-devicons/plugin/nvim-web-devicons.vim
+ 55: ~/.local/share/nvim/lazy/neo-tree.nvim/plugin/neo-tree.lua
+ 56: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/editorconfig.lua
+ 57: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/gzip.vim
+ 58: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/man.lua
+ 59: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/matchit.vim
+ 60: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+ 61: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/matchparen.vim
+ 62: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/netrwPlugin.vim
+ 63: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+ 64: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/osc52.lua
+ 65: /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/rplugin.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/rplugin.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/shada.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/shada.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/spellfile.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/spellfile.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/tarPlugin.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/tohtml.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/tohtml.lua
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/tutor.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/plugin/zipPlugin.vim
+continuing in nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/seba/.config/nvim/init.lua:0
+continuing in /Users/seba/.config/nvim/init.lua
+finished sourcing init.lua
+sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/filetype.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/filetype.lua
+sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/syntax/synload.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.5/share/nvim/runtime/syntax/syntax.vim
+Reading ShaDa file "/Users/seba/.local/state/nvim/shada/main.shada" info marks oldfiles
+Writing ShaDa file "/Users/seba/.local/state/nvim/shada/main.shada"

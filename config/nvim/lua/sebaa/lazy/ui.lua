@@ -82,7 +82,10 @@ return {
 	},
 	{
 		"nvim-lualine/lualine.nvim",
-		dependencies = { "nvim-mini/mini.icons" },
+		dependencies = { 
+			"nvim-mini/mini.icons",
+			"AndreM222/copilot-lualine",
+		},
 		config = function()
 			require("lualine").setup({
 				options = {
@@ -116,7 +119,34 @@ return {
 					},
 					lualine_b = { "filename", "branch" },
 					lualine_c = { "%=" },
-					lualine_x = { "diagnostics" },
+					lualine_x = { 
+						{
+							"copilot",
+							symbols = {
+								status = {
+									icons = {
+										enabled = " ",
+										sleep = " ",
+										disabled = " ",
+										warning = " ",
+										unknown = " ",
+									},
+							hl = {
+								enabled = "#A3BE8C",
+								sleep = "#60728A",
+								disabled = "#4C566A",
+								warning = "#EBCB8B",
+								unknown = "#BF616A",
+							},
+								},
+								spinners = "dots",
+								spinner_color = "#6272A4",
+							},
+							show_colors = true,
+							show_loading = true,
+						},
+						"diagnostics" 
+					},
 					lualine_y = {
 						"filetype",
 						function()
