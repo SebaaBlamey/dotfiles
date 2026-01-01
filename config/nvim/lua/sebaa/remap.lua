@@ -12,7 +12,7 @@ map("n", "<C-j>", "<C-w>j") -- move down
 map("n", "<C-k>", "<C-w>k") -- move up
 
 -- close buffer
-map("n", "<C-w>", ":Bdelete<CR>")
+map("n", "<C-w>", ":bd<CR>")
 
 -- fzf
 map("n", "<leader><leader>", ":FzfLua files<CR>") -- files

@@ -82,7 +82,7 @@ return {
 	},
 	{
 		"nvim-lualine/lualine.nvim",
-		dependencies = { 
+		dependencies = {
 			"nvim-mini/mini.icons",
 			"AndreM222/copilot-lualine",
 		},
@@ -119,7 +119,7 @@ return {
 					},
 					lualine_b = { "filename", "branch" },
 					lualine_c = { "%=" },
-					lualine_x = { 
+					lualine_x = {
 						{
 							"copilot",
 							symbols = {
@@ -131,13 +131,13 @@ return {
 										warning = " ",
 										unknown = " ",
 									},
-							hl = {
-								enabled = "#A3BE8C",
-								sleep = "#60728A",
-								disabled = "#4C566A",
-								warning = "#EBCB8B",
-								unknown = "#BF616A",
-							},
+									hl = {
+										enabled = "#A3BE8C",
+										sleep = "#60728A",
+										disabled = "#4C566A",
+										warning = "#EBCB8B",
+										unknown = "#BF616A",
+									},
 								},
 								spinners = "dots",
 								spinner_color = "#6272A4",
@@ -145,7 +145,7 @@ return {
 							show_colors = true,
 							show_loading = true,
 						},
-						"diagnostics" 
+						"diagnostics",
 					},
 					lualine_y = {
 						"filetype",
@@ -193,10 +193,10 @@ return {
 			})
 		end,
 	},
-	{
-		"sphamba/smear-cursor.nvim",
-		opts = {},
-	},
+	-- {
+	-- 	"sphamba/smear-cursor.nvim",
+	-- 	opts = {},
+	-- },
 	{
 		"xiyaowong/transparent.nvim",
 	},
