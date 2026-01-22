@@ -30,9 +30,9 @@ o.inccommand = "split"
 o.splitright = true
 o.splitbelow = true
 o.termguicolors = true
-o.scrolloff = 8
+o.scrolloff = 12
 o.laststatus = 3
 
 o.cmdheight = 0
 
--- vim.cmd.colorscheme("kanagawa")
+-- vim.cmd.colorscheme("tokyonight-storm")

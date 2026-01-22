@@ -37,7 +37,6 @@ return {
 		},
 		lazy = false, -- neo-tree will lazily load itself
 		config = function()
-			require("transparent").clear_prefix("NeoTree")
 			require("neo-tree").setup({
 				sources = {
 					"filesystem",
@@ -98,7 +97,7 @@ return {
 						{
 							"mode",
 							separator = { left = "" },
-							right_padding = 2,
+							right_padding = 4,
 							fmt = function(str)
 								local mode_icons = {
 									["NORMAL"] = "󰊠",
@@ -197,9 +196,6 @@ return {
 	-- 	"sphamba/smear-cursor.nvim",
 	-- 	opts = {},
 	-- },
-	{
-		"xiyaowong/transparent.nvim",
-	},
 	-- lazy.nvim setup
 	{
 		"folke/snacks.nvim",
@@ -278,5 +274,11 @@ return {
 		-- config = function()
 		-- 	require("nvim-highlight-colors").setup({})
 		-- end,
+	},
+	{
+		"rachartier/tiny-inline-diagnostic.nvim",
+		event = "VeryLazy",
+		priority = 1000,
+		opts = {},
 	},
 }

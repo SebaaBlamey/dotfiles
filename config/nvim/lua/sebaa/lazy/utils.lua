@@ -37,18 +37,18 @@ return {
 								local colorscheme = selected[1]
 								vim.cmd.colorscheme(colorscheme)
 
-								-- Actualiza el archivo de configuración con el nuevo colorscheme
-								local config_file = vim.fn.stdpath("config") .. "./colorschemes.lua"
-								local content = vim.fn.readfile(config_file)
+								local config_file = vim.fn.stdpath("config") .. "/lua/sebaa/settings/colorscheme.lua"
 
-								for i, line in ipairs(content) do
-									if line:match("colorscheme%s*=") then
-										content[i] = string.format('  colorscheme = "%s",', colorscheme)
-										break
-									end
+								local content = string.format('return {\n  colorscheme = "%s",\n}\n', colorscheme)
+
+								local file = io.open(config_file, "w")
+								if file then
+									file:write(content)
+									file:close()
+									print("Colorscheme guardado en: " .. config_file)
+								else
+									print("Error: No se pudo guardar el colorscheme")
 								end
-
-								vim.fn.writefile(content, config_file)
 							end,
 						},
 					})
@@ -173,10 +173,24 @@ return {
 	},
 	-- markdown preview
 	{
-		"OXY2DEV/markview.nvim",
-		lazy = false,
-
-		-- Completion for `blink.cmp`
-		dependencies = { "saghen/blink.cmp" },
+		"MeanderingProgrammer/render-markdown.nvim",
+		dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-mini/mini.nvim" }, -- if you use the mini.nvim suite
+		---@module 'render-markdown'
+		---@type render.md.UserConfig
+		opts = {
+			heading = {
+				enabled = true,
+				sign = true,
+				style = "full",
+				icons = { "① ", "② ", "③ ", "④ ", "⑤ ", "⑥ " },
+				left_pad = 1,
+			},
+			bullet = {
+				enabled = true,
+				icons = { "●", "○", "◆", "◇" },
+				right_pad = 1,
+				highlight = "render-markdownBullet",
+			},
+		},
 	},
 }
